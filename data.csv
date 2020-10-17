@@ -1,0 +1,36 @@
+Question,label1,label2
+How to run RPA?,1,rpa
+Could you run RPA?,1,rpa
+Call RPA please?,1,rpa
+Write email?,1,email
+Could you send email?,1,email
+Could you book a hotel for me?,1,hotel
+Could you run RPA?,1,rpa
+I would like to listen some music,1,music
+Could you play some music?,1,music
+Open calendar please,0,calendar
+What's that?,0,others
+What time is it?,0,others
+May I open the window?,0,others
+Is there a bakery near here?,0,others
+Where is the nearest bank?,0,others
+Who wrote this article?,0,others
+Is there any rice?,0,others
+Are there any sandwiches?,0,others
+Is this your book?,0,others
+Whose is that?,0,others
+What do you like to do on weekends?,0,others
+What does she look like?,0,others
+What would you like to eat?,0,others
+What is it like?,0,others
+What's the weather like?,0,others
+Would you like some coffee?,0,others
+Would you like something to drink?,0,others
+What's it about?,0,others
+What do you think about this book?,0,others
+Is it difficult to prepare for IELTS?,0,others
+What are your views on Donald Trump as the America’s President?,0,others
+How was the movie?,0,others
+How do you feel about Clara?,0,others
+How about some lunch?,0,others
+"Hi there, how are you?",0,others

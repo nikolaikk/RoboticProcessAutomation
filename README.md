@@ -13,4 +13,5 @@ Requirements:
 Instructions:
 Now you are ready to run the main jupyter notebook scripts.
 1. Open `predict.ipynb` in jupyter lab.
-2. Run the cells consequently.
+2. Run the cells consequentially.
+3. As an example, you can RPA to send an email.

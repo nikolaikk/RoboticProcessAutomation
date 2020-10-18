@@ -1,5 +1,5 @@
 # RoboticProcessAutomation
-Is is a test version of Robotic Process Automation project. It has features of speech recognition and its interpretation and further mapping them onto supported activities/tasks. Mapping is done using machine learning algorithms, for now it is dense neural net for the classification with BERT tokenizer. There are not that many tasks supported since this is supposed to be a demo.
+Is is a test version of Robotic Process Automation project. It has features of speech recognition and its interpretation and further mapping them onto supported activities/tasks. Mapping is done using machine learning algorithms, for now it is a dense neural net for the classification and BERT tokenizer. There are not that many tasks supported since this is supposed to be a demo, all supported tasks can be seen in `rpa_commands.py`.
 
 
 Requirements:

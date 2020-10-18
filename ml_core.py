@@ -5,6 +5,10 @@ import numpy as np
 
 from sklearn.preprocessing import LabelEncoder
 import joblib
+import nltk 
+
+nltk.download("stopwords")
+
 from transformers.modeling_tf_distilbert import TFDistilBertModel
 from transformers import DistilBertTokenizer
 from tokenizers import BertWordPieceTokenizer
@@ -17,8 +21,6 @@ tf.get_logger().setLevel('INFO')
 
 def clean(text:pd.Series, remove_stop_words=True)->pd.Series:
     '''Clean text, removes irrelevant strings'''
-    from nltk.corpus import stopwords
-
     text.fillna("fillna").str.lower()
     text = text.map(lambda x: re.sub("\[\[User.*",'',str(x)))
     text = text.map(lambda x: re.sub("\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}",'',str(x)))

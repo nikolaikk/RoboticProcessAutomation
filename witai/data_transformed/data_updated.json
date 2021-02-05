@@ -1,0 +1,574 @@
+[
+   {
+      "id":1,
+      "intent":"send_connection_request",
+      "text":"Connect with marketing professionals on Linkedin",
+      "rpa_id":2.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"marketing professionals"
+      }
+   },
+   {
+      "id":2,
+      "intent":"send_connection_request",
+      "text":"Connect with Engineers on Linkedin",
+      "rpa_id":2.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"Engineers"
+      }
+   },
+   {
+      "id":3,
+      "intent":"send_connection_request",
+      "text":"Connect with web developers on Linkedin, at 10 pm.",
+      "rpa_id":2.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"web developers",
+         "time_trigger":"10 pm"
+      }
+   },
+   {
+      "id":4,
+      "intent":"send_connection_request",
+      "text":"Find and connect with developers on Linkedin, who live in Berlin.",
+      "rpa_id":2.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"developers",
+         "wit$location":"Berlin"
+      }
+   },
+   {
+      "id":5,
+      "intent":"send_connection_request",
+      "text":"Connect with PHP developers  on Linkedin",
+      "rpa_id":2.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"PHP developers"
+      }
+   },
+   {
+      "id":6,
+      "intent":"connect_to_people_commented_post",
+      "text":"Connect with all people who commented of my post on Linkedin",
+      "rpa_id":2.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":7,
+      "intent":"connect_to_people_commented_post",
+      "text":"Connect with Dave who commented of my post on Linkedin",
+      "rpa_id":2.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Dave"
+      }
+   },
+   {
+      "id":8,
+      "intent":"connect_to_people_commented_post",
+      "text":"Connect with John who commented of last post on Linkedin",
+      "rpa_id":2.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"John"
+      }
+   },
+   {
+      "id":9,
+      "intent":"connect_to_people_commented_post",
+      "text":"Connect with Dave who commented on our post on Linkedin",
+      "rpa_id":2.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Dave"
+      }
+   },
+   {
+      "id":10,
+      "intent":"accept_connection_invitation",
+      "text":"Accept invitations to connect on Linkedin",
+      "rpa_id":2.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":11,
+      "intent":"accept_connection_invitation",
+      "text":"Accept invitations from Brain to connect on Linkedin",
+      "rpa_id":2.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Brain"
+      }
+   },
+   {
+      "id":12,
+      "intent":"accept_connection_invitation",
+      "text":"Accept invitations from Brain to connect on Linkedin, who works as developer",
+      "rpa_id":2.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Brain",
+         "profession":"developer"
+      }
+   },
+   {
+      "id":13,
+      "intent":"accept_connection_invitation",
+      "text":"Accept invitations to connect from all people on Linkedin, who live in Boston",
+      "rpa_id":2.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$location":"Boston"
+      }
+   },
+   {
+      "id":14,
+      "intent":"send_follow_request",
+      "text":"Send invitation to follow the Google company page on Linkedin",
+      "rpa_id":2.4,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "organization":"Google"
+      }
+   },
+   {
+      "id":15,
+      "intent":"send_follow_request",
+      "text":"Send invitation to Mia to follow the Facebook company page on Linkedin",
+      "rpa_id":2.4,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "organization":"Facebook",
+         "wit$contact":"Mia"
+      }
+   },
+   {
+      "id":16,
+      "intent":"send_congratulations",
+      "text":"Send congratulations on the new job to Nick on Linkedin",
+      "rpa_id":3.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Nick"
+      }
+   },
+   {
+      "id":17,
+      "intent":"send_congratulations",
+      "text":"Congratulate Ben on the new job on Linkedin, tomorrow",
+      "rpa_id":3.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Ben",
+         "time_trigger":"tomorrow"
+      }
+   },
+   {
+      "id":18,
+      "intent":"send_congratulations",
+      "text":"Send congratulations on special international days on Linkedin",
+      "rpa_id":3.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":19,
+      "intent":"send_congratulations",
+      "text":"Send congratulations to Jimmy on special international days on Linkedin",
+      "rpa_id":3.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Jimmy"
+      }
+   },
+   {
+      "id":20,
+      "intent":"send_birthday_cong",
+      "text":"Send birthday congratulations on Linkedin",
+      "rpa_id":3.4,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":21,
+      "intent":"send_birthday_cong",
+      "text":"Send birthday congratulations to Tom on Linkedin",
+      "rpa_id":3.4,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Tom"
+      }
+   },
+   {
+      "id":22,
+      "intent":"thank_for_connection",
+      "text":"Send a thank you wit$message_body to Albert for accepting the invitation to connect on Linkedin",
+      "rpa_id":3.5,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Albert"
+      }
+   },
+   {
+      "id":23,
+      "intent":"thank_for_connection",
+      "text":"Send a thank you wit$message_body for accepting the invitation to connect on Linkedin",
+      "rpa_id":3.5,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":24,
+      "intent":"collect_articles",
+      "text":"Collect articles on Linkedin",
+      "rpa_id":4.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":25,
+      "intent":"share_post_team",
+      "text":"Share last post published by my team member on Linkedin",
+      "rpa_id":4.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":26,
+      "intent":"share_post_team",
+      "text":"Share last post published by my team member Drake on Linkedin",
+      "rpa_id":4.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Drake"
+      }
+   },
+   {
+      "id":27,
+      "intent":"comment_post_key",
+      "text":"Comment to posts that contain key 'hiring' on Linkedin",
+      "rpa_id":4.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$message_body":"'hiring'"
+      }
+   },
+   {
+      "id":28,
+      "intent":"comment_post_key",
+      "text":"Leave a comment to posts that has key 'new opportunity' on Linkedin",
+      "rpa_id":4.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$message_body":"'new opportunity'"
+      }
+   },
+   {
+      "id":29,
+      "intent":"like_post",
+      "text":"Like posts that has 'word' word on Linkedin.",
+      "rpa_id":4.4,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$message_body":"'word'"
+      }
+   },
+   {
+      "id":30,
+      "intent":"like_post",
+      "text":"Hit like to the posts that contain 'key' key on Linkedin.",
+      "rpa_id":4.4,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$message_body":"'key'"
+      }
+   },
+   {
+      "id":31,
+      "intent":"like_post_user",
+      "text":"Hit like to all posts in my feed on Linkedin",
+      "rpa_id":4.5,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":32,
+      "intent":"like_post_user",
+      "text":"Like posts in my feed on Linkedin",
+      "rpa_id":4.5,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":33,
+      "intent":"like_post_admin",
+      "text":"Like posts in my feed on behalf of company on Linkedin",
+      "rpa_id":4.6,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":34,
+      "intent":"like_post_admin",
+      "text":"Like posts in feed on behalf of our organization on Linkedin",
+      "rpa_id":4.6,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":35,
+      "intent":"reshare_mention",
+      "text":"Reshare team's best mentions and Linkedin content on Linkedin",
+      "rpa_id":4.7,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":36,
+      "intent":"reshare_mention",
+      "text":"Find our company's mentions and share them on Linkedin",
+      "rpa_id":4.7,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":37,
+      "intent":"like_post_where_mentioned",
+      "text":"Find our posts or comments where company was mentioned and like them on Linkedin",
+      "rpa_id":4.8,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":38,
+      "intent":"like_post_where_mentioned",
+      "text":"Like best @mentions or comments of our company on Linkedin",
+      "rpa_id":4.8,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":39,
+      "intent":"recognize_moments",
+      "text":"Recognize team moments with a persnolized shout-out from the Page on Linkedin",
+      "rpa_id":4.9,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":40,
+      "intent":"recognize_moments",
+      "text":"Recognize team moments with a persnolized shout-out from the Page on Linkedin",
+      "rpa_id":4.9,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":41,
+      "intent":"welcome_to_team",
+      "text":"Welcome James to our team on Linkedin",
+      "rpa_id":4.10,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"James"
+      }
+   },
+   {
+      "id":42,
+      "intent":"welcome_to_team",
+      "text":"Welcome Kevin to our team on Linkedin, at 11 am day after tomorrow",
+      "rpa_id":4.10,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Kevin",
+         "time_trigger":"11 am day after tomorrow"
+      }
+   },
+   {
+      "id":43,
+      "intent":"announce_project_launch",
+      "text":"Announce new project launch 'Trinity' on Linkedin",
+      "rpa_id":4.11,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$message_body":"'Trinity'"
+      }
+   },
+   {
+      "id":44,
+      "intent":"announce_project_launch",
+      "text":"Inform my network that a new project 'Big Boss' is launched on Linkedin",
+      "rpa_id":4.11,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$message_body":"'Big Boss'"
+      }
+   },
+   {
+      "id":45,
+      "intent":"celebrate_anniversary",
+      "text":"Celebrate work anniversary on Linkedin",
+      "rpa_id":4.12,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":46,
+      "intent":"celebrate_anniversary",
+      "text":"Share to everyone that I have Work anniversary on Linkedin",
+      "rpa_id":4.12,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin"
+      }
+   },
+   {
+      "id":47,
+      "intent":"celebrate_employers_position",
+      "text":"Celebrate Stacy's new position in our company on Linkedin",
+      "rpa_id":4.13,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Stacy"
+      }
+   },
+   {
+      "id":48,
+      "intent":"celebrate_employers_position",
+      "text":"Celebrate Johanna's new position as a Principal Project Manager in our company on Linkedin",
+      "rpa_id":4.13,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$contact":"Johanna",
+         "profession":"Principal Project Manager"
+      }
+   },
+   {
+      "id":49,
+      "intent":"search_candidates",
+      "text":"Search for the candidates on position of Machine Learning Engineer on Linkedin",
+      "rpa_id":5.1,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"Machine Learning Engineer"
+      }
+   },
+   {
+      "id":50,
+      "intent":"search_candidates",
+      "text":"Look for Team Lead Developer candidates in Paris on Linkedin",
+      "rpa_id":5.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"Team Lead Developer",
+         "wit$location":"Paris"
+      }
+   },
+   {
+      "id":51,
+      "intent":"analyze_candidates",
+      "text":"Find and analyze candidates for position of QA tester on Linkedin",
+      "rpa_id":5.2,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "profession":"QA tester"
+      }
+   },
+   {
+      "id":52,
+      "intent":"search_companies",
+      "text":"Search for company 'dabudabu' on Linkedin",
+      "rpa_id":5.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "organization":"dabudabu"
+      }
+   },
+   {
+      "id":53,
+      "intent":"search_companies",
+      "text":"Search for company 'Google', that is based in Atlanta on Linkedin",
+      "rpa_id":5.3,
+      "tab":"Linkedin",
+      "entities":{
+         "platform":"Linkedin",
+         "wit$location":"Atlanta"
+      }
+   }
+]
